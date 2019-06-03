@@ -30,7 +30,7 @@ export default new Router({
       component: dogs,
     },
     {
-      path: '/pet',
+      path: '/pets/:species/:id',
       name: 'pet',
       component: pet,
     },
